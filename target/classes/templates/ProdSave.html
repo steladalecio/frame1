@@ -1,0 +1,37 @@
+<html xmlns:th="https://thymeleaf.org">
+<table>
+    <tr>
+        <td>
+            <h4>nome: </h4>
+        </td>
+        <td>
+            <h4 th:text="${prod.nome}"></h4>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <h4>descricao: </h4>
+        </td>
+        <td>
+            <h4 th:text="${prod.descricao}"></h4>
+        </td>
+    </tr>
+    </tr>
+    <td>
+        <h4>Quantidade: </h4>
+    </td>
+    <td>
+        <h4 th:text="${prod.Quantidade}"></h4>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <h4>Valor: </h4>
+        </td>
+        <td>
+            <h4 th:text="${prod.Valor}"></h4>
+        </td>
+    </tr>
+</table>
+
+</html>

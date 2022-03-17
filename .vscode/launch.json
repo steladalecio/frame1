@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Frame1Application<frame1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.edu.ifms.frame1.Frame1Application",
+            "projectName": "frame1",
+            "args": ""
+        }
+    ]
+}
